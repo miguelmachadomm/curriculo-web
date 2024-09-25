@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: deeppink;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+/* seletor de classe */
+.titulo{
+    text-align: center;
+    margin: 4%;
+    background-color: rgb(228, 172, 240);
+}
+
+
+/* Estilização Geral */
+section{
+    border:dashed
+}
+header h1 {
+    margin: 0;
+  }
+  
+  header h2 {
+    margin: 5px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  .experiencia-item {
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
